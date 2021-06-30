@@ -36,15 +36,17 @@ prog_maj = [
     "I IIM iii V6",
     "I II7 IV I",
     "I bIII7 II7 bII7",
-    "I bIIIM bVIM bVIIM",
+    "I bIIIM bVIM bVIIM", # Tadd Dameron turnround
+    "I bIII7 bVI7 bII7",
     "I bIIIM bVIIM IV",
     "I ii V vi",
     "I ii7 I6 IV",
+    "I biiidim ii7 V7", # Jazz
     "I iii IV vi",
     "I iii vi Isus4",
     "I iii vi IV",
     "I iii vi V",
-    "I I I I IV IV I I V IV I I",
+    "I I I I IV IV I I V IV I I", #  12 bar Blues: Shuffle
     "I IV Isus2 IV",
     "I IV ii V",
     "I IV vi V",
@@ -53,13 +55,17 @@ prog_maj = [
     "I IV bIIIM bVIM", 
     "I IV bVIIM IV",
     "I IV vii iii vi bVII bIII V7",
+    "IM7 IVM7 viidim iii7 vi7 ii7 V7",             # Complete Circle of Diatonic 5ths Progression
+    "IM7 #IVM7 VII7 iii7 VI7 ii7 V7",              # Complete Circle of Chromatic 5ths Progression
+    "IM7 #IVM7 VII7 IIIM7 IIIm7 VI7 IIM7 IIm7 V7", # Circle of Chromatic 5ths Progression with resolved iis / Vs
+    "I iii vi IV ii viidim V",                     # Harmonic function progression in major
     "I V I IV",
     "I V7 ii V",
     "I V vi ii",
     "I V vi IV",
     "I V vi iii IV",
     "I V vi V",
-    "I V vi iii IV I IV V", 
+    "I V vi iii IV I IV V", # Pachiabel's Canon
     "I V bVIIM IV",
     "I bVIM I bIIM",
     "I bVI V",
@@ -69,7 +75,10 @@ prog_maj = [
     "I vi ii V",
     "I vi III V", 
     "I vi IV iii",
-    "I vi IV V",
+    "I vi IV V",      # 50's progression
+    "I vi bVI7#11 V", # Jazz
+    "I VIm7 II V",    # Jazz 
+    "I vi ii V",      # Jazz
     "I bVIIM bVIM bIIM",
     "I bVIIM IV I",
     "iim7b5 V7 iii VI7", 
@@ -80,7 +89,10 @@ prog_maj = [
     "ii bVIIM7 I", "ii7 V9 I7 I7",
     "iim7 V7 iiim7 vi7 iim7 V7",
     "bIIIM ii bIIM I",
+    "bIII V7 I",
+    "III7 VI7 II7 V7 I", # Ragtime progression
     "iii vi IV I",
+    "iii VI ii V",
     "iii7 vi ii V",
     "iii7 biiidim ii7 V7",
     "IV I ii vi",
@@ -89,6 +101,7 @@ prog_maj = [
     "IV I6 V",
     "IV IV I V",
     "IV iv I",
+    "V7 I7 IV IV vim7 II7 iim7 V7", # Jazz: Montgomery-Ward Bridge
     "V I vi V",
     "V IV vi I",
     "V vi IV I",
@@ -96,6 +109,7 @@ prog_maj = [
     "vi bVIM bVIIM I",
     "vi V IV V",
     "vi7 bVI7 V7 I",
+    "bVII V7 I",
 ]
 
 # minor progressions
@@ -120,6 +134,8 @@ prog_min = [
     "i VI iv v",
     "i VI VII VII",
     "i VI VII v",
+    "i iv VII III VI iidim V", # Circle of 5ths progression
+    "i VII III VI iv iidim V", # Harmonic function progression in minor
     "i bVIIM bVIM bVIIM",
     "i bVIIM VI bii",
     "i VII i v",
