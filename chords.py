@@ -62,7 +62,7 @@ prog_maj = [
     "I V I IV",
     "I V7 ii V",
     "I V vi ii",
-    "I V vi IV",
+    "I V vi IV",            # Axis progression
     "I V vi iii IV",
     "I V vi V",
     "I V vi iii IV I IV V", # Pachiabel's Canon
@@ -75,7 +75,7 @@ prog_maj = [
     "I vi ii V",
     "I vi III V", 
     "I vi IV iii",
-    "I vi IV V",      # 50's progression
+    "I vi IV V",      # 50's progression, or do wop
     "I vi bVI7#11 V", # Jazz
     "I VIm7 II V",    # Jazz 
     "I vi ii V",      # Jazz
@@ -119,6 +119,7 @@ prog_min = [
     "i ii v i",
     "i III iv VI",
     "i III VII IV",
+    "i bIII VII IV", # Plagal cadence
     "i iv v iv",
     "i iv v v",
     "i iv III VI",
@@ -142,7 +143,7 @@ prog_min = [
     "i VII i v III VII i v i",
     "i VII IV IV",
     "i VII VI III",
-    "i VII VI V",
+    "i VII VI V", # Andalusian cadence
     "i VII VI iv",
     "i VII VI VII",
     "i7 VI III7 VII6 i i7 III7 iv7",
@@ -153,7 +154,7 @@ prog_min = [
     "iv i v VI",
     "iv VI VII i",
     "iv III VII i",
-    "iv III II I",
+    "iv III II I",        # Andalusian cadence
     "iv III VI II I",
     "iv v VI VII",
     "v i iv VII",
