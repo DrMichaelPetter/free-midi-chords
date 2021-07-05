@@ -57,7 +57,7 @@ prog_maj = [
     "I IV vii iii vi bVII bIII V7",
     "IM7 IVM7 viidim iii7 vi7 ii7 V7",             # Complete Circle of Diatonic 5ths Progression
     "IM7 #IVM7 VII7 iii7 VI7 ii7 V7",              # Complete Circle of Chromatic 5ths Progression
-    "IM7 #IVM7 VII7 IIIM7 IIIm7 VI7 IIM7 IIm7 V7", # Circle of Chromatic 5ths Progression with resolved iis / Vs
+    "IM7 #IVM7 VII7 IIIM7 iiim7 VI7 IIM7 iim7 V7", # Circle of Chromatic 5ths Progression with resolved iis / Vs
     "I iii vi IV ii viidim V",                     # Harmonic function progression in major
     "I V I IV",
     "I V7 ii V",
@@ -90,7 +90,7 @@ prog_maj = [
     "iim7 V7 iiim7 vi7 iim7 V7",
     "bIIIM ii bIIM I",
     "bIII V7 I",
-    "III7 VI7 II7 V7 I", # Ragtime progression
+    "III7 VIM7 IIM7 V7 I", # Ragtime progression
     "iii vi IV I",
     "iii VI ii V",
     "iii7 vi ii V",
@@ -101,7 +101,7 @@ prog_maj = [
     "IV I6 V",
     "IV IV I V",
     "IV iv I",
-    "V7 I7 IV IV vim7 II7 iim7 V7", # Jazz: Montgomery-Ward Bridge
+    "V7 I7 IV IV vim7 IIM7 iim7 V7", # Jazz: Montgomery-Ward Bridge
     "V I vi V",
     "V IV vi I",
     "V vi IV I",
@@ -110,6 +110,18 @@ prog_maj = [
     "vi V IV V",
     "vi7 bVI7 V7 I",
     "bVII V7 I",
+    "I viidim7 VIM",           # Diminished7 dominating everything 
+    "I viidim7 VIM7 IIM",      # Diminished7 dominating everything 
+    "I viidim7 VIM7 IIM7 V",   # Diminished7 dominating everything 
+    "I viidim7 I",             # Diminished7 dominating everything 
+    "I viidim7 I7 IV",         # Diminished7 dominating everything 
+    "I viidim7 I7 IV7 bVII",   # Diminished7 dominating everything 
+    "I viidim7 bV",            # Diminished7 dominating everything
+    "I viidim7 bV7 VIIM",      # Diminished7 dominating everything
+    "I viidim7 bV7 VIIM7 IIIM",# Diminished7 dominating everything
+    "I viidim7 bIII",          # Diminished7 dominating everything 
+    "I viidim7 bIII7 bVI",     # Diminished7 dominating everything 
+    "I viidim7 bIII7 bVI7 bII",# Diminished7 dominating everything 
 ]
 
 # minor progressions
